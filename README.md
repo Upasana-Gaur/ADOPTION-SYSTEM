@@ -86,3 +86,56 @@ Pet owners can list pets for adoption, fostering collaboration between adopters 
 ---
 
 ## 📂 Project Structure
+pet-adoption-website-mini-project/
+│
+├── admin/
+├── css/
+├── db_img/
+├── img/
+├── videos/
+├── dbconn.php
+├── login.php
+├── signup.php
+├── adoption.php
+├── add_pet.php
+├── remove_pet.php
+├── index.php
+└── Documentation.pdf
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Install **XAMPP**
+2. Place the project folder inside:
+
+C:/xampp/htdocs/
+
+3. Start **Apache** and **MySQL**
+4. Import the database file into **phpMyAdmin**
+5. Open in browser:
+
+http://localhost/pet-adoption-website-mini-project
+
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Implementing authentication systems  
+- Connecting PHP with MySQL  
+- Managing CRUD operations  
+- Structuring modular backend applications  
+- Designing responsive UI layouts  
+- Using Git for version control  
+
+---
+
+## 🚀 Future Enhancements
+
+- Payment gateway integration  
+- Email notification system  
+- Advanced admin dashboard  
