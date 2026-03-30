@@ -136,8 +136,7 @@ C:/xampp/htdocs/
 - Create a new database
 - Import the provided `.sql` file  
 
-5. Run the project in your browser:
-   http://localhost/pet-adoption-website-mini-project
+5. Run the project in your browser:  http://localhost/pet-adoption-website-mini-project
 
    
 ---
