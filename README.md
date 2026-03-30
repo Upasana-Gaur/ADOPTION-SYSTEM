@@ -86,20 +86,23 @@ Pet owners can list pets for adoption, fostering collaboration between adopters 
 ---
 
 ## 📂 Project Structure
+
+
 pet-adoption-website-mini-project/
-├── admin/
-├── css/
-├── db_img/
-├── img/
-├── videos/
-├── dbconn.php
-├── login.php
-├── signup.php
-├── adoption.php
-├── add_pet.php
-├── remove_pet.php
-├── index.php
-└── Documentation.pdf
+│
+├── admin/                  # Admin panel for managing pets
+├── css/                    # Stylesheets for the website
+├── db_img/                 # Pet images stored locally
+├── img/                    # General images for the website
+├── videos/                 # Videos related to pets
+├── dbconn.php              # Database connection file
+├── login.php               # User login page
+├── signup.php              # User registration page
+├── adoption.php            # Page displaying pets available for adoption
+├── add_pet.php             # Admin page to add new pets
+├── remove_pet.php          # Admin page to remove pets
+├── index.php               # Homepage
+└── Documentation.pdf       # Project documentation
 
 
 ---
