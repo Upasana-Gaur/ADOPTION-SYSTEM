@@ -86,45 +86,78 @@ Pet owners can list pets for adoption, fostering collaboration between adopters 
 ---
 
 ## 📂 Project Structure
+```
 
-
-pet-adoption-website-mini-project/
+ppet-adoption-website/
 │
-├── admin/                  # Admin panel for managing pets
-├── css/                    # Stylesheets for the website
-├── db_img/                 # Pet images stored locally
-├── img/                    # General images for the website
-├── videos/                 # Videos related to pets
+├── admin/                  # Admin panel (manage pets, users, adoptions)
+├── css/                    # Stylesheets (UI design)
+├── db_img/                 # Images stored from database (uploaded pets)
+├── img/                    # Static images (icons, banners, UI assets)
+├── videos/                 # Video related to pets
+│
+├── about.php               # About page
+├── accessories.php         # Pet accessories page
+├── add_pet.php             # Add new pet (admin/user)
+├── adoption_form.php       # Pet adoption form
+├── adoption.php            # Adoption listings page
 ├── dbconn.php              # Database connection file
-├── login.php               # User login page
-├── signup.php              # User registration page
-├── adoption.php            # Page displaying pets available for adoption
-├── add_pet.php             # Admin page to add new pets
-├── remove_pet.php          # Admin page to remove pets
+├── donate.php              # Donation page
+├── footer.php              # Footer component (reusable)
+├── header.php              # Header/navigation (reusable)
 ├── index.php               # Homepage
+├── login.php               # User login
+├── logout.php              # Logout functionality
+├── pet-cart.php            # Cart for selected pets (if applicable)
+├── profile.php             # User profile page
+├── remove_pet.php          # Remove pet (admin/user)
+├── resources.php           # Helpful resources page
+├── signup.php              # User registration
+│
 └── Documentation.pdf       # Project documentation
-
+```
 
 ---
 
-
 ## ⚙️ Installation & Setup
 
-1. Install **XAMPP**
-2. Place the project folder inside:
+Follow these steps to run the project locally:
 
-   `C:/xampp/htdocs/`
+1. Install **XAMPP** (or any PHP & MySQL server)
+2. Move the project folder to:
+C:/xampp/htdocs/
 
-3. Start **Apache** and **MySQL**
-4. Import the database file (`db_img` or your `.sql`) into **phpMyAdmin**
-5. Open in your browser:
+3. Start the following services in XAMPP:
+- Apache  
+- MySQL  
 
-   `http://localhost/pet-adoption-website-mini-project`
+4. Set up the database:
+- Open **phpMyAdmin**
+- Create a new database
+- Import the provided `.sql` file  
+
+5. Run the project in your browser:
+   http://localhost/pet-adoption-website-mini-project
+
+   
+---
 
 ## 🌟 Features
 
-- 🐾 **Find Your Perfect Companion**: Discover pets like puppies and kittens ready for adoption.
-- 🏠 **User-Friendly Interface**: Easy navigation for browsing pets, submitting adoption forms, and accessing pet care resources.
-- 🛍️ **Shop for Pet Essentials**: Integrated section to buy pet accessories, toys, and more.
-- 🌟 **Empowering Pet Owners**: Showcase pets for adoption and connect with potential adopters.
+- 🐾 **Browse Pets**  
+Discover pets available for adoption, including puppies and kittens.
 
+- 📝 **Adoption Requests**  
+Fill out and submit adoption forms بسهولة.
+
+- 👤 **User Accounts**  
+Sign up, log in, and manage your profile.
+
+- 🛍️ **Pet Accessories**  
+Explore products like toys, food, and other essentials.
+
+- 📚 **Resources & Support**  
+Access useful pet care and adoption information.
+
+- 🛠️ **Admin Panel**  
+Manage pets, users, and adoption listings.
